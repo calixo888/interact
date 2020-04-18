@@ -5,11 +5,14 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="light">
   <img class="logo" src="assets/interact.png" alt="">
+</ion-content>
+
+<ion-footer style="margin-bottom: 20px;">
   <progress-bar [progress]="(points / milestone) * 100" [color]="'#105086'"></progress-bar>
   <div class="stats">
     <span class="left"><strong>Points:</strong> {{ points }}</span>
     <span class="right"><strong>Next Milestone:</strong> {{ milestone }}</span>
   </div>
-</ion-content>
+</ion-footer>

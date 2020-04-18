@@ -1,0 +1,11 @@
+.inputs {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  grid-gap: 10px;
+  padding: 0 10px;
+  align-items: center;
+}
+
+ion-button {
+  align-self: flex-end;
+}
